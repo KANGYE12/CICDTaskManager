@@ -7,7 +7,7 @@ public class InvalidTaskException extends RuntimeException {
    *
    * @param message Description of the validation error
    */
-  public InvalidTaskException(String message) {
+  public InvalidTaskException(Strings message) {
     super("Invalid task: " + message);
   }
 }
